@@ -1,0 +1,41 @@
+{
+  "name" : "reddit-glue-job",
+  "jobMode" : "VISUAL",
+  "description" : "",
+  "role" : "arn:aws:iam::975050110944:role/glue-admin",
+  "executionProperty" : {
+    "maxConcurrentRuns" : 1
+  },
+  "command" : {
+    "name" : "glueetl",
+    "scriptLocation" : "s3://aws-glue-assets-975050110944-ap-southeast-1/scripts/.py",
+    "pythonVersion" : "3"
+  },
+  "defaultArguments" : {
+    "--enable-metrics" : "true",
+    "--enable-spark-ui" : "true",
+    "--spark-event-logs-path" : "s3://aws-glue-assets-975050110944-ap-southeast-1/sparkHistoryLogs/",
+    "--enable-job-insights" : "false",
+    "--enable-observability-metrics" : "true",
+    "--enable-glue-datacatalog" : "true",
+    "--enable-continuous-cloudwatch-log" : "true",
+    "--job-bookmark-option" : "job-bookmark-disable",
+    "--job-language" : "python",
+    "--TempDir" : "s3://aws-glue-assets-975050110944-ap-southeast-1/temporary/"
+  },
+  "maxRetries" : 0,
+  "allocatedCapacity" : 10,
+  "timeout" : 2880,
+  "maxCapacity" : 10.0,
+  "glueVersion" : "4.0",
+  "numberOfWorkers" : 10,
+  "workerType" : "G.1X",
+  "executionClass" : "STANDARD",
+  "codeGenConfigurationNodes" : "{\"node-1718995592881\":{\"S3CsvSource\":{\"AdditionalOptions\":{\"EnableSamplePath\":false,\"SamplePath\":\"s3://reddit-engineer/raw/reddit_20240621.csv\"},\"Escaper\":\"\",\"Exclusions\":[],\"Name\":\"Amazon S3\",\"OptimizePerformance\":false,\"OutputSchemas\":[{\"Columns\":[{\"Name\":\"id\",\"Type\":\"string\"},{\"Name\":\"title\",\"Type\":\"string\"},{\"Name\":\"score\",\"Type\":\"string\"},{\"Name\":\"num_comments\",\"Type\":\"string\"},{\"Name\":\"author\",\"Type\":\"string\"},{\"Name\":\"created_utc\",\"Type\":\"string\"},{\"Name\":\"url\",\"Type\":\"string\"},{\"Name\":\"over_18\",\"Type\":\"string\"},{\"Name\":\"edited\",\"Type\":\"string\"},{\"Name\":\"spoiler\",\"Type\":\"string\"},{\"Name\":\"stickied\",\"Type\":\"string\"}]}],\"Paths\":[\"s3://reddit-engineer/raw/\"],\"QuoteChar\":\"quote\",\"Recurse\":true,\"Separator\":\"comma\",\"WithHeader\":true}},\"node-1718995595602\":{\"S3DirectTarget\":{\"AutoDataQuality\":{\"IsEnabled\":false},\"Compression\":\"none\",\"Format\":\"csv\",\"Inputs\":[\"node-1718995592881\"],\"Name\":\"Amazon S3\",\"PartitionKeys\":[],\"Path\":\"s3://reddit-engineer/tranformed/\",\"SchemaChangePolicy\":{\"EnableUpdateCatalog\":false}}}}",
+  "sourceControlDetails" : {
+    "provider" : "GITHUB",
+    "repository" : "reddit_pipeline_exp",
+    "branch" : "main",
+    "folder" : "aws-glue-job"
+  }
+}
