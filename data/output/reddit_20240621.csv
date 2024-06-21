@@ -1,0 +1,33 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1dkmcvw,Classic,119,35,Traditional-Ad-8670,2024-06-20 21:00:28,https://i.redd.it/20i3t2xfjs7d1.jpeg,False,False,False,False
+1dke4sl,Came across this amazing resource!,36,5,No-Blueberry2628,2024-06-20 15:15:29,https://www.reddit.com/r/dataengineering/comments/1dke4sl/came_across_this_amazing_resource/,False,False,False,False
+1dkp4v2,What I've Learned After A Decade Of Data Engineering,21,1,dataengineeringdude,2024-06-20 23:02:23,https://www.confessionsofadataguy.com/what-ive-learned-after-a-decade-of-data-engineering/,False,False,False,False
+1dk9zle,Any Real time Data Visualizations tool which can update per second and handle data at scale,18,16,PlantainSweaty5865,2024-06-20 12:06:36,https://www.reddit.com/r/dataengineering/comments/1dk9zle/any_real_time_data_visualizations_tool_which_can/,False,False,False,False
+1dk8b0s,SQL visualization tool for practice and analysis,11,3,Inevitable-Bed-5249,2024-06-20 10:27:15,https://www.reddit.com/r/dataengineering/comments/1dk8b0s/sql_visualization_tool_for_practice_and_analysis/,False,False,False,False
+1dkbc2f,DE with travel opportunities?,10,12,data-punk,2024-06-20 13:14:12,https://www.reddit.com/r/dataengineering/comments/1dkbc2f/de_with_travel_opportunities/,False,False,False,False
+1dk6ce6,"PySpark, question about aggregation with multiple partitions..",9,2,Traditional_Job9599,2024-06-20 08:06:23,https://www.reddit.com/r/dataengineering/comments/1dk6ce6/pyspark_question_about_aggregation_with_multiple/,False,False,False,False
+1dkdr0m,Advice for brand new tech lead,7,2,Suspicious_World9906,2024-06-20 15:00:09,https://www.reddit.com/r/dataengineering/comments/1dkdr0m/advice_for_brand_new_tech_lead/,False,False,False,False
+1dk8oac,CICD ADF - Multiple teams ,6,6,Curious_Gur9574,2024-06-20 10:51:06,https://www.reddit.com/r/dataengineering/comments/1dk8oac/cicd_adf_multiple_teams/,False,False,False,False
+1dkqjxp,MWAA Tutorial Way Too Much Overhead or Am I Just Lazy,6,5,ASBrainBeast,2024-06-21 00:08:40,https://www.reddit.com/r/dataengineering/comments/1dkqjxp/mwaa_tutorial_way_too_much_overhead_or_am_i_just/,False,False,False,False
+1dksgpb,Data Team Set up,5,1,Ok-Piccolo106,2024-06-21 01:46:39,https://www.reddit.com/r/dataengineering/comments/1dksgpb/data_team_set_up/,False,False,False,False
+1dkfnep,Airbyte Extremely Slow for Large Tables,7,19,TetrapodTyranny,2024-06-20 16:18:29,https://www.reddit.com/r/dataengineering/comments/1dkfnep/airbyte_extremely_slow_for_large_tables/,False,False,False,False
+1dkq6bq,Which database to invest data from into your warehouse / lakehouse?,6,2,neutralginhotel,2024-06-20 23:51:01,https://www.reddit.com/r/dataengineering/comments/1dkq6bq/which_database_to_invest_data_from_into_your/,False,False,False,False
+1dkihrv,Address Data Model,5,1,plodder_hordes,2024-06-20 18:16:30,https://www.reddit.com/r/dataengineering/comments/1dkihrv/address_data_model/,False,False,False,False
+1dklmd2,Which role to pick?,3,3,flashpoints80,2024-06-20 20:28:05,https://www.reddit.com/r/dataengineering/comments/1dklmd2/which_role_to_pick/,False,False,False,False
+1dkldc9,Newbie question Sorry : If data frame has 10k partition then how many files you have,1,4,mysterious_code,2024-06-20 20:17:18,https://www.reddit.com/r/dataengineering/comments/1dkldc9/newbie_question_sorry_if_data_frame_has_10k/,False,False,False,False
+1dkaqk8,Dynamic management of Azure Synapse SparkPool,3,1,BigDataMax,2024-06-20 12:45:08,https://www.reddit.com/r/dataengineering/comments/1dkaqk8/dynamic_management_of_azure_synapse_sparkpool/,False,False,False,False
+1dk7n3c,Which tool to monitor and trigger HPC jobs ?,3,4,tobiasF356,2024-06-20 09:41:52,https://www.reddit.com/r/dataengineering/comments/1dk7n3c/which_tool_to_monitor_and_trigger_hpc_jobs/,False,False,False,False
+1dkuabs,Grouping via custom tranche sizes?,2,0,bpeikes,2024-06-21 03:23:55,https://www.reddit.com/r/dataengineering/comments/1dkuabs/grouping_via_custom_tranche_sizes/,False,False,False,False
+1dku5vo,Building Serverless Event-Driven Pipelines with AWS Lambda and AWS Glue,2,0,distinct_name,2024-06-21 03:17:00,https://youtu.be/piBonsrFCfc?si=m7Md2aDqk4ruXbJi,False,False,False,False
+1dkl6c0,"Data migration from a system to another, best practice?",2,3,Ordinary_Calendar_39,2024-06-20 20:09:06,https://www.reddit.com/r/dataengineering/comments/1dkl6c0/data_migration_from_a_system_to_another_best/,False,False,False,False
+1dkj8cl,How is unity catalog different from GCP/AWS/Azure native services?,2,1,Ok-Tradition-3450,2024-06-20 18:47:31,https://www.reddit.com/r/dataengineering/comments/1dkj8cl/how_is_unity_catalog_different_from_gcpawsazure/,False,False,False,False
+1dkin2x,Dynamic Dagster configuring,2,1,lionmeetsviking,2024-06-20 18:22:36,https://www.reddit.com/r/dataengineering/comments/1dkin2x/dynamic_dagster_configuring/,False,False,False,False
+1dkgvuj,Which is the best practices to scrap a real time dynamic website ? ,1,9,GAMION64,2024-06-20 17:09:44,https://www.reddit.com/r/dataengineering/comments/1dkgvuj/which_is_the_best_practices_to_scrap_a_real_time/,False,False,False,False
+1dkds9h,Need advice on mapping and documenting,2,1,Zexanima,2024-06-20 15:01:23,https://www.reddit.com/r/dataengineering/comments/1dkds9h/need_advice_on_mapping_and_documenting/,False,False,False,False
+1dkt7hc,Building a no-cloud lambda datalake,1,2,cartolana,2024-06-21 02:25:48,https://www.reddit.com/r/dataengineering/comments/1dkt7hc/building_a_nocloud_lambda_datalake/,False,False,False,False
+1dkmkzg,Logging in dbt?,1,5,Bootlegcrunch,2024-06-20 21:09:54,https://www.reddit.com/r/dataengineering/comments/1dkmkzg/logging_in_dbt/,False,False,False,False
+1dkgv1b,Revenue modelling with fact_sales and fact_invoicing,1,2,StandardDeviationist,2024-06-20 17:08:48,https://www.reddit.com/r/dataengineering/comments/1dkgv1b/revenue_modelling_with_fact_sales_and_fact/,False,False,False,False
+1dkfous,Great Expectations Data Context Hosted on S3?,1,1,ASAP_Beet,2024-06-20 16:20:10,https://www.reddit.com/r/dataengineering/comments/1dkfous/great_expectations_data_context_hosted_on_s3/,False,False,False,False
+1dk43rq,Collibra tutorial or training?,1,0,efor007,2024-06-20 05:33:01,https://www.reddit.com/r/dataengineering/comments/1dk43rq/collibra_tutorial_or_training/,False,False,False,False
+1dkgi9l,Adv SQL and Redshift resources,0,3,rajathanuka,2024-06-20 16:54:14,https://www.reddit.com/r/dataengineering/comments/1dkgi9l/adv_sql_and_redshift_resources/,False,False,False,False
+1dk7xzb,Datapains,0,0,LonelyKnowledge9103,2024-06-20 10:02:27,https://www.reddit.com/r/dataengineering/comments/1dk7xzb/datapains/,False,False,False,False
