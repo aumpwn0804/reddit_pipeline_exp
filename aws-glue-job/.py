@@ -6,6 +6,7 @@ from awsglue.context import GlueContext
 from awsglue.job import Job
 from pyspark.sql.functions import concat_ws
 from awsglue import DynamicFrame
+from pyspark.sql.functions import regexp_replace
 
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 sc = SparkContext()
@@ -19,6 +20,10 @@ AmazonS3_node1718995592881 = glueContext.create_dynamic_frame.from_options(forma
 
 # convert DynamicFrame to DataFrame
 df = AmazonS3_node1718995592881.toDF()
+df.drop_duplicates()
+
+# remove special string in title
+df = df.withColumn("title", regexp_replace(df["title"], ",", ""))
 
 # concatenate the three columns into a single columns
 df_combined = df.withColumn('ESS_updated', concat_ws('-',df['edited'],df['spoiler'],df['stickied']))
