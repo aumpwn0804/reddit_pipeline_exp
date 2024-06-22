@@ -23,12 +23,12 @@
     "--TempDir" : "s3://aws-glue-assets-975050110944-ap-southeast-1/temporary/"
   },
   "maxRetries" : 0,
-  "allocatedCapacity" : 10,
+  "allocatedCapacity" : 40,
   "timeout" : 2880,
-  "maxCapacity" : 10.0,
+  "maxCapacity" : 40.0,
   "glueVersion" : "4.0",
   "numberOfWorkers" : 10,
-  "workerType" : "G.1X",
+  "workerType" : "G.4X",
   "executionClass" : "STANDARD",
   "sourceControlDetails" : {
     "provider" : "GITHUB",
