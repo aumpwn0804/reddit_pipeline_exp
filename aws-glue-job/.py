@@ -4,7 +4,7 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
-from pyspark.sql.function import concat_ws
+from pyspark.sql.functions import concat_ws
 from awsglue import Dynamicframe
 
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
