@@ -22,7 +22,7 @@ AmazonS3_node1718995592881 = glueContext.create_dynamic_frame.from_options(forma
 df = AmazonS3_node1718995592881.toDF()
 df.drop_duplicates()
 
-# remove special string in title
+# remove special string(,) in title
 df = df.withColumn("title", regexp_replace(df["title"], ",", ""))
 
 # concatenate the three columns into a single columns
