@@ -11,7 +11,7 @@ from pipelines.aws_s3_pipeline import upload_s3_pipeline
 from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args = {
-    'owner': 'Yusuf Ganiyu',
+    'owner': 'Aum',
     'start_date': datetime(2024, 1, 1)
 }
 
