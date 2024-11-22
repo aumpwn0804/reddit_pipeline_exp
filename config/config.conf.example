@@ -12,7 +12,7 @@ output_path = /opt/airflow/data/output
 [api_keys]
 reddit_secret_key = [SECRET KEY HERE]
 reddit_client_id = [CLIENT ID HERE]
-
+    
 [aws]
 aws_access_key_id = [aws access key id]
 aws_secret_access_key= [aws secret key]
