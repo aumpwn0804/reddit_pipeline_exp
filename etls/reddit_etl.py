@@ -4,16 +4,22 @@ import numpy as np
 import pandas as pd
 import praw
 from praw import Reddit
-
+import logging
 from utils.constants import POST_FIELDS
-
 
 def connect_reddit(client_id, client_secret, user_agent) -> Reddit:
     try:
+        print(client_id)
+        print(client_secret)
         reddit = praw.Reddit(client_id=client_id,
                              client_secret=client_secret,
-                             user_agent=user_agent)
+                             password="aum080444",
+                             user_agent=user_agent,
+                             username="aumpwn",
+                             )
         print("connected to reddit!")
+        logging.basicConfig(level=logging.DEBUG)
+        print(reddit.user.me())
         return reddit
     except Exception as e:
         print(e)
@@ -23,9 +29,8 @@ def connect_reddit(client_id, client_secret, user_agent) -> Reddit:
 def extract_posts(reddit_instance: Reddit, subreddit: str, time_filter: str, limit=None):
     subreddit = reddit_instance.subreddit(subreddit)
     posts = subreddit.top(time_filter=time_filter, limit=limit)
-
+    print(posts)
     post_lists = []
-
     for post in posts:
         post_dict = vars(post)
         post = {key: post_dict[key] for key in POST_FIELDS}
@@ -50,3 +55,4 @@ def transform_data(post_df: pd.DataFrame):
 
 def load_data_to_csv(data: pd.DataFrame, path: str):
     data.to_csv(path, index=False)
+

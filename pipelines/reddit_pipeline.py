@@ -6,14 +6,25 @@ from utils.constants import CLIENT_ID, SECRET, OUTPUT_PATH
 
 def reddit_pipeline(file_name: str, subreddit: str, time_filter='day', limit=None):
     # connecting to reddit instance
-    instance = connect_reddit(CLIENT_ID, SECRET, 'Connect_Sun2720')
+    print("connecting")
+    instance = connect_reddit(CLIENT_ID, SECRET, 'aumpwn')
+    print("connect success")
     # extraction
+    print("extracting")
     posts = extract_posts(instance, subreddit, time_filter, limit)
     post_df = pd.DataFrame(posts)
+    print("extract success")
     # transformation
+    print("tranfroming")
     post_df = transform_data(post_df)
+    print("tranfrom success")
     # loading to csv
+    print("loading")
     file_path = f'{OUTPUT_PATH}/{file_name}.csv'
     load_data_to_csv(post_df, file_path)
+    print("load success")
 
     return file_path
+
+
+#reddit_pipeline("reddit_test","dataengineering","day",1)
