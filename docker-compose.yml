@@ -5,7 +5,7 @@ x-airflow-common:
   build:
     context: .
     dockerfile: Dockerfile
-  image: custom-airflow:2.9.2-python3.9
+  image: custom-airflow:2.9.2-python3.11
   env_file:
     - airflow.env
   volumes:
