@@ -1,6 +1,6 @@
 # Reddit Data pipeline practice
-this project are data pipeline practice that extract data from reddit post and load to aws s3 and athena.<br>
-tools used are apache airflow and awscloud service
+this project are data pipeline practice that extract data from reddit post and load to aws s3 and landing data on redshift/athena for analytical.<br>
+tools used are apache airflow and aws cloud service
 
 soruce practice: <br>
 Reddit Data Pipeline Engineering | AWS End to End Data Engineering by CodeWithYu<br>
